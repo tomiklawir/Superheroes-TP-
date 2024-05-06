@@ -13,13 +13,33 @@ while(opcion != 4)
 {
     switch(opcion){
         case 1: 
-        Superheroe superheroe1 = ObtenerSuperheroe();
-        Console.WriteLine("Se ha creado el superheroe " + superheroe1.Nombre);
+        nombre = IngresarString("Ingrese el nombre del superheroe");
+        ciudad = IngresarString("Ingrese la ciudad del superheroe");
+        peso = IngresarNumero("Ingrese el peso del superheroe");
+        do{
+        fuerza = IngresarNumero("Ingrese la fuerza del superheroe");
+        }while(fuerza < 1 || fuerza > 100);
+        do{
+        velocidad = IngresarNumero("Ingrese la velocidad del superheroe");
+        }while(fuerza < 1 || fuerza > 100);
+
+        Superheroe s1 = new Superheroe(nombre, ciudad, peso, fuerza, velocidad);
+        Console.WriteLine("Se ha creado el superheroe " + s1.Nombre);
         break;
         
         case 2:
-        Superheroe superheroe2 = ObtenerSuperheroe();
-        Console.WriteLine("Se ha creado el superheroe " + superheroe2.Nombre);
+        nombre = IngresarString("Ingrese el nombre del superheroe");
+        ciudad = IngresarString("Ingrese la ciudad del superheroe");
+        peso = IngresarNumero("Ingrese el peso del superheroe");
+        do{
+        fuerza = IngresarNumero("Ingrese la fuerza del superheroe");
+        }while(fuerza < 1 || fuerza > 100);
+        do{
+        velocidad = IngresarNumero("Ingrese la velocidad del superheroe");
+        }while(fuerza < 1 || fuerza > 100);
+
+        Superheroe s2 = new Superheroe(nombre, ciudad, peso, fuerza, velocidad);
+        Console.WriteLine("Se ha creado el superheroe " + s2.Nombre);
         break;
         case 3:
         break;
@@ -41,32 +61,9 @@ static double IngresarNumero(string mensaje)
 static string IngresarString(string mensaje)
 {
     string r;
-    Console.WriteLine(mensaje);
-    r = Console.ReadLine();
+    do{
+        Console.WriteLine(mensaje);
+        r = Console.ReadLine();
+    }while(r == string.Empty);
     return r;
-}   
-Superheroe ObtenerSuperheroe()
-{
-    Superheroe superheroe = new Superheroe();
-do{
-superheroe.Nombre= IngresarString("ingrese el nombre");
-}while(superheroe.Nombre == string.Empty);
-
-do{
-superheroe.Ciudad= IngresarString("ingrese la ciudad");
-}while(superheroe.Ciudad == string.Empty);
-
-do{
-superheroe.Peso= IngresarNumero("ingrese el peso");
-}while(superheroe.Peso < 0);
-
-do{
-superheroe.Velocidad = IngresarNumero("ingrese un valor para la velocidad");
-}while(superheroe.Velocidad < 1 && superheroe.Velocidad > 100);
-
-do{
-superheroe.Fuerza = IngresarNumero("ingrese un valor para la fuerza");
-}while(superheroe.Fuerza < 1 && superheroe.Fuerza > 100);
-
-return superheroe;
 }
