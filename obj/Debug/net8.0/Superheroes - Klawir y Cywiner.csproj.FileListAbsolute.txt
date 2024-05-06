@@ -1,0 +1,15 @@
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\bin\Debug\net8.0\Superheroes - Klawir y Cywiner.exe
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\bin\Debug\net8.0\Superheroes - Klawir y Cywiner.deps.json
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\bin\Debug\net8.0\Superheroes - Klawir y Cywiner.runtimeconfig.json
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\bin\Debug\net8.0\Superheroes - Klawir y Cywiner.dll
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\bin\Debug\net8.0\Superheroes - Klawir y Cywiner.pdb
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\Superheroes - Klawir y Cywiner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\Superheroes - Klawir y Cywiner.AssemblyInfoInputs.cache
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\Superheroes - Klawir y Cywiner.AssemblyInfo.cs
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\Superheroes - Klawir y Cywiner.csproj.CoreCompileInputs.cache
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\Superheroes - Klawir y Cywiner.sourcelink.json
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\Superheroes - Klawir y Cywiner.dll
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\refint\Superheroes - Klawir y Cywiner.dll
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\Superheroes - Klawir y Cywiner.pdb
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\Superheroes - Klawir y Cywiner.genruntimeconfig.cache
+C:\Users\carok\Desktop\Tomi\Superheroes - Klawir y Cywiner\obj\Debug\net8.0\ref\Superheroes - Klawir y Cywiner.dll

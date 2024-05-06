@@ -18,9 +18,10 @@ class Superheroe{
     public double ObtenerSkill(){
         double velTot, fuerzaTot, numRand, skill;
         Random random = new Random();
+        numRand = random.NextDouble();
         velTot = Velocidad * 0.6;
         fuerzaTot = Fuerza * 0.8;
-        skill = velTot + fuerzaTot + random;
+        skill = velTot + fuerzaTot + numRand;
         return skill;
     }
 }
