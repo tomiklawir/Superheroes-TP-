@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Superheroes - Klawir y Cywiner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e638429bbb443039430a8e31312448741ba102e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Superheroes - Klawir y Cywiner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Superheroes - Klawir y Cywiner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
